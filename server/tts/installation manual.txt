@@ -1,0 +1,8 @@
+
+
+1) conda create -n tts python=3.10 -y
+2) conda activate tts
+3) conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 pytorch-cuda=12.1 -c pytorch -c nvidia( for 12.1 cuda toolkit)
+4) pip install numpy==1.22.0 --user
+5) pip install tts
+6) pip install --upgrade tensorflow-gpu --user( if still eror)

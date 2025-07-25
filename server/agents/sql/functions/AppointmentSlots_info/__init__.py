@@ -1,0 +1,1 @@
+"""Appointment slots info functions package.""" 
